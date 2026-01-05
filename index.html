@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreamscape - Post-Producción Audiovisual</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#333}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+header{background:#fff;padding:20px 0;box-shadow:0 2px 4px rgba(0,0,0,0.1);position:sticky;top:0;z-index:100}
+header .container{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:bold;color:#1a1a1a;text-decoration:none}
+.logo span{color:#00d9ff}
+nav ul{list-style:none;display:flex;gap:40px}nav a{color:#333;text-decoration:none;font-weight:500}
+nav a:hover{color:#00d9ff}
+.hero{background:linear-gradient(135deg,#1a1a1a 0%,#2d2d2d 100%);color:#fff;padding:100px 0;position:relative}
+.hero .container{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.hero h1{font-size:48px;margin-bottom:20px}.hero h1 span{color:#00d9ff}
+.cta-button{display:inline-block;background:#00d9ff;color:#1a1a1a;padding:15px 40px;border-radius:5px;text-decoration:none;font-weight:bold}
+.cta-button:hover{background:transparent;color:#00d9ff}
+section{padding:80px 0}section h2{font-size:36px;margin-bottom:50px;text-align:center}
+section h2 span{color:#00d9ff}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:50px}
+.service-card{background:rgba(0,217,255,0.1);padding:30px;border-radius:8px;border-left:4px solid #00d9ff}
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:50px}
+.portfolio-item{background:linear-gradient(135deg,#00d9ff 0%,#1a1a1a 100%);border-radius:8px;padding:30px;color:#fff}
+.testimonials{background:linear-gradient(135deg,#1a1a1a 0%,#2d2d2d 100%);color:#fff}
+.testimonials h2{color:#fff}
+.faq-items{max-width:800px;margin:0 auto;margin-top:50px}
+.faq-item{border:1px solid #e0e0e0;margin-bottom:15px}
+.faq-question{background:#f5f5f5;padding:20px;cursor:pointer;font-weight:600}
+.faq-answer{padding:20px;display:none}
+.faq-item.active .faq-answer{display:block}
+footer{background:#1a1a1a;color:#fff;padding:60px 0}
+footer a{color:#ccc;text-decoration:none}
+footer a:hover{color:#00d9ff}
+@media(max-width:768px){.hero .container{grid-template-columns:1fr}.services-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<a href="#" class="logo">Dream<span>scape</span></a>
+<nav>
+<ul>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#proceso">Proceso</a></li>
+<li><a href="#portafolio">Portafolio</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="hero">
+<div class="container">
+<div class="hero-content">
+<h1>Post-Producción <span>Audiovisual</span> Profesional</h1>
+<p>Servicios de edición, color grading, efectos visuales y más para empresas que buscan contenido de calidad.</p>
+<a href="#contacto" class="cta-button">Contáctanos Ahora</a>
+</div>
+<div class="hero-image">🎬</div>
+</div>
+</section>
+<section id="servicios">
+<div class="container">
+<h2>Nuestros <span>Servicios</span></h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>Edición de Video</h3>
+<p>Montaje profesional con las últimas tecnologías y herramientas de la industria.</p>
+</div>
+<div class="service-card">
+<h3>Color Grading</h3>
+<p>Corrección de color y grading cinematográfico para un acabado profesional.</p>
+</div>
+<div class="service-card">
+<h3>Efectos Visuales</h3>
+<p>Efectos VFX y animaciones personalizadas para tu contenido audiovisual.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="portafolio">
+<div class="container">
+<h2>Nuestro <span>Portafolio</span></h2>
+<div class="portfolio-grid">
+<div class="portfolio-item">
+<h3>Proyecto 1: Comercial</h3>
+<p>Edicion y post produccion de comercial para empresa tecnologica.</p>
+</div>
+<div class="portfolio-item">
+<h3>Proyecto 2: Social</h3>
+<p>Shorts para redes sociales con color grading cinematografico.</p>
+</div>
+<div class="portfolio-item">
+<h3>Proyecto 3: Eventos</h3>
+<p>Cobertura y post produccion de eventos corporativos.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="testimonials">
+<div class="container">
+<h2>Lo que dicen nuestros <span>Clientes</span></h2>
+<p>El equipo transformo completamente nuestro contenido. Calidad y profesionalismo excepcionales.</p>
+</div>
+</section>
+<footer>
+<div class="container">
+<div><h4>Dreamscape</h4><p>Post produccion audiovisual profesional en Bogota, Colombia.</p></div>
+<div><h4>Servicios</h4><ul><li><a href="#">Edicion de Video</a></li><li><a href="#">Color Grading</a></li></ul></div>
+<div><h4>Empresa</h4><ul><li><a href="#">Sobre Nosotros</a></li><li><a href="#">Contacto</a></li></ul></div>
+<div><h4>Legal</h4><ul><li><a href="#">Privacidad</a></li><li><a href="#">Terminos</a></li></ul></div>
+</div>
+</footer>
+<script>
+document.querySelectorAll('.faq-question').forEach(q => {q.addEventListener('click', () => {q.parentElement.classList.toggle('active');});});
+</script>
+</body>
+</html>
